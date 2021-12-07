@@ -5,17 +5,22 @@ qw
 
 qwe
 
-# исключаются все файлы в директории .terraform, находящейся в любом месте начиная от директории, в которой расположен файл .gitignore
-**/.terraform/*
+___
+Исключаются все файлы директории .terraform, находящейся в любом месте начиная от директории, в которой расположен файл .gitignore
 
-# исключаются файлы, находящиеся в деректории, где расположен .gitignore 
-*.tfstate
-*.tfstate.*
-crash.log
-*.tfvars
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
-.terraformrc
-terraform.rc
+`**/.terraform/*`
+
+Исключаются все файлы с данными именами, находящиеся в любом месте дерева каталогов, от директории, где расположен .gitignore :
+`crash.log`
+`override.tf`
+`override.tf.json`
+`.terraformrc`
+`terraform.rc`
+
+Исключаются все файлы с масками имен (где * - любое количество символов, в том числе и 0), находящиеся в любом месте дерева каталогов, от директории, где расположен .gitignore :
+`*.tfstate` 
+`*.tfstate.*`
+`*.tfvars`
+`*_override.tf`
+`*_override.tf.json`
+
