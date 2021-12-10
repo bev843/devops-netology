@@ -19,3 +19,5 @@ override.tf.json
 *_override.tf.json
 .terraformrc
 terraform.rc
+
+new line from git switch
