@@ -30,6 +30,7 @@ another new line from PyCharm
 # Домашнее задание к занятию «2.4. Инструменты Git»
 <details>
 <summary markdown="span">Решение</summary>
+
 ### 1. Найдите полный хеш и комментарий коммита, хеш которого начинается на `aefea`
 Ответ: 
 ```shell
