@@ -28,6 +28,8 @@ another new line from PyCharm
 
 ---
 # Домашнее задание к занятию «2.4. Инструменты Git»
+<details>
+<summary markdown="span">Решение</summary>
 ### 1. Найдите полный хеш и комментарий коммита, хеш которого начинается на `aefea`
 Ответ: 
 ```shell
@@ -246,3 +248,10 @@ git log -p -S'func synchronizedWriters('
 ```
 Находим коммит, где присутствует строка `+func synchronizedWriters(targets ...io.Writer) []io.Writer {
 `, автор коммита и будет автором этой функции.
+</details>
+
+# Домашнее задание к занятию «3.1. Работа в терминале, лекция 1»
+<details>
+<summary markdown="span">Решение</summary>
+
+</details>
